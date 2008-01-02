@@ -19,6 +19,7 @@ BuildRequires:	perl(Test::Builder::Tester)
 BuildRequires:  perl(CGI)
 Requires:	    perl-Devel-Cycle >= 1.03
 BuildArch: 	    noarch
+BuildRoot: 	    %{_tmppath}/%{name}-%{version}
 
 %description 
 Perl's garbage collection has one big problem: Circular references can't get
