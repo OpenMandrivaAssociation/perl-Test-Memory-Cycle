@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary: 	Check for memory leaks and circular memory references
 License: 	GPL+ or Artistic
@@ -11,9 +11,6 @@ Group: 		Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}/
 Source0:    http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.bz2
 
-%if %{mdkversion} < 1010
-BuildRequires:	perl-devel
-%endif
 BuildRequires:	perl-Devel-Cycle >= 1.03
 BuildRequires:	perl(Test::Builder::Tester)
 BuildRequires:  perl(CGI)
