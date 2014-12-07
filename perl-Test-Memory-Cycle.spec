@@ -4,7 +4,7 @@
 Summary:	Check for memory leaks and circular memory references
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	12
+Release:	13
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
