@@ -3,12 +3,12 @@
 
 Summary:	Check for memory leaks and circular memory references
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	3
+Version:	%{modver}
+Release:	4
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Url:		https://metacpan.org/dist/Test-Memory-Cycle
+Source0:	https://cpan.metacpan.org/authors/id/P/PE/PETDANCE/Test-Memory-Cycle-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Devel::Cycle) >= 1.07
